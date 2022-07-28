@@ -1,2 +1,0 @@
-# Yasminstore
-Created with CodeSandbox
