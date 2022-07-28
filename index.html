@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="yasmin.css" />
+  
+
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yasmin,s</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                  <link rel="stylesheet" href="blog.html" />
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kategori
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Casual</a></li>
+                    <li><a class="dropdown-item" href="#">Sweater</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Slim Fit Jeans</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+    <div class="container">
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-3 text-end">
+          <img src="fotoyasmin.jpeg" class="rounded-circle"  width="200" height="200" class="" />
+        </div>
+        <div class="col-8 mt-4">
+          <h3>t-shirt yasmin's store</h3>
+          <p>yasmin</p>
+          <p>Make it simple but significant</p>
+          <p>Sumatera Selatan, Palembang</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- carousel -->
+  <div class="container-fluid carousel-contain py-5">
+      <div class="container bordered">
+          <h1 class="text-center mb-3">Best Saller</h1>
+          <div id="carouselExampleCaptions" class="carousel slide col-lg-4 offset-lg-4" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Slide 1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Slide 2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="Slide 3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
+    </div>
+
+
+    <div class="row justify-content-evenly col-lg-6 offset-lg-3">
+        <div class="col-4 mt-3 text-center">
+          <div class="card" style="width: 15rem;">
+            <img src="Gambar 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Black Hoodie</h4>
+              <p>Bahan dingin, yang pasti nyaman</p>
+              <a href="#" class="btn btn-primary text-center">Beli</a>
+            </div>
+          </div>
+          </div>
+        <div class="col-4 mt-3 text-center">
+          <div class="card" style="width: 15rem;">
+            <img src="Gambar 2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">*****</h4>
+              <p>Yuk guys tunggu apa lagi buruan dibeli!</p>
+              <a href="#" class="btn btn-primary text-center">&</a>
+            </div>
+          </div>
+          </div>
+        <div class="col-4 mt-3 text-center">
+          <div class="card" style="width: 15rem;">
+            <img src="gambar 3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Hoodie</h4>
+              <p>Bahan dingin, yang pasti nyaman</p>
+              <a href="#" class="btn btn-primary text-center">Beli</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-4 mt-3 text-center">
+            <div class="card" style="width: 15rem;">
+              <img src="gambar 4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Sky Jeans</h4>
+                <p>Bahan dingin, yang pasti nyaman</p>
+                <a href="#" class="btn btn-primary text-center">Beli</a>
+              </div>
+            </div>
+            </div>
+          <div class="col-4 mt-3 text-center">
+            <div class="card" style="width: 15rem;">
+              <img src="gambar 5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">*******</h4>
+                <p>Yuk guys tunggu apa lagi buruan dibeli!</p>
+                <a href="#" class="btn btn-primary text-center">&</a>
+              </div>
+            </div>
+            </div>
+          <div class="col-4 mt-3 text-center">
+            <div class="card" style="width: 15rem;">
+              <img src="gambar 6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title text-center">Yumi Jeans</h4>
+                <p>Bahan dingin, yang pasti nyaman</p>
+                <a href="#" class="btn btn-primary text-center">Beli</a>
+              </div>
+            </div>
+            </div>
+            
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+     crossorigin="anonymous"
+     ></script>"
+     
+    </script>
+    
+  </body>
+  
+</html>
